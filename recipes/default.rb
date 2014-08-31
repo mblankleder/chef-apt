@@ -1,3 +1,5 @@
+codename = `lsb_release -c |awk -F "\t" '{print $2}'`
+
 execute "apt clean and update" do
   command "apt-get clean && apt-get update"
   action :nothing
