@@ -6,7 +6,7 @@ execute "apt clean and update" do
 end
 
 cookbook_file "/etc/apt/sources.list" do
-  source  "sources.list"
+  source  "sources-#{node['apt']['ubuntu_flavor']}.list"
   mode    00644
   owner   "root"
   group   "root"
