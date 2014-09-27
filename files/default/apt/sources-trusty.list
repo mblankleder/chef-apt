@@ -1,0 +1,7 @@
+deb http://us.archive.ubuntu.com/ubuntu/ trusty main universe multiverse 
+deb-src http://us.archive.ubuntu.com/ubuntu/ trusty main universe multiverse 
+
+deb http://us.archive.ubuntu.com/ubuntu/ trusty-security main universe multiverse 
+deb http://us.archive.ubuntu.com/ubuntu/ trusty-updates main universe multiverse 
+deb-src http://us.archive.ubuntu.com/ubuntu/ trusty-security main universe multiverse 
+deb-src http://us.archive.ubuntu.com/ubuntu/ trusty-updates main universe multiverse 
